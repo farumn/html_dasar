@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <table cellspacing="0" cellpadding="5">
+        <form action="">
+            <tr>
+                <td align="right"><label for="username">Username : </label></td>
+                <td align="left"><input type="text" id="username"></td>
+            </tr>
+            <tr>
+                <td align="right"><label for="password">Password : </label></td>
+                <td align="left"><input type="password" id="password"></td>
+            </tr>
+            <tr>
+                <td colspan="2" align="center">
+                    <input type="radio" id="pria" name="jenis_kelamin"><label for="pria">Pria</label>
+                    <input type="radio" id="wanita" name="jenis_kelamin"><label for="wanita">Wanita</label>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2" align="center">
+                    <input type="checkbox" id="menyanyi"><label for="menyanyi">Menyanyi</label>
+                    <input type="checkbox" id="olahraga"><label for="olahraga">Olahraga</label>
+                    <input type="checkbox" id="ngoding"><label for="ngoding">Ngoding</label>
+                </td>
+            </tr>
+            <tr>
+                <td align="right"> <label for="kota"> Kota : </label></td>
+                <td align="left">
+                <select name="" id="kota">
+                    <option value="">bandung</option>
+                    <option value="">jakarta</option>
+                    <option value="">samarinda</option>
+                </select>
+                </td>
+            </tr>
+            <tr>
+                <td align="right"><label for="komentar"> Komentar : </label></td>
+                <td align="left"><textarea id="komentar"></textarea></td>
+            </tr>
+            <tr>
+                <td colspan="2" align="center"><button type="submit">kirim</button></td>
+            </tr>
+        </form>
+    </table>
+</body>
+</html>
